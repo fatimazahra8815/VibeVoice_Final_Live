@@ -1,0 +1,19 @@
+accelerate==1.6.0
+transformers==4.51.3
+llvmlite>=0.40.0
+numba>=0.57.0
+diffusers
+tqdm
+numpy
+scipy
+librosa
+ml-collections
+absl-py
+gradio
+av
+aiortc
+uvicorn[standard]
+fastapi
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.9.1+cu128
+torchaudio==2.9.1+cu128
